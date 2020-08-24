@@ -1,0 +1,89 @@
+body {
+  background-color: black;
+  font-family: "Roboto Slab", serif;
+  height: auto;
+  margin: 0;
+}
+#start {
+  background-image: url(./Images/lp3.jpeg);
+  background-repeat: no-repeat;
+  display: block;
+  position: cover;
+  height: 60vh;
+  width: 100%;
+}
+#start #text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#start #heading {
+  font-weight: 400px;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: -30px;
+  color: rgb(187, 245, 72);
+  text-shadow: 5px 5px 2px black;
+}
+#start #tagline {
+  font-weight: 400px;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+  margin-top: -10px;
+  color: rgb(247, 234, 57);
+  text-shadow: 5px 5px 2px black;
+}
+
+#content #writing {
+  /* color: #da2c38; */
+  color: #fcdc4d;
+  font-size: 25px;
+  line-height: 55px;
+  margin-top: 150px;
+  margin-left: 12vw;
+  text-shadow: 3px 3px 2px darkslategray;
+}
+
+#end {
+  background-color: rgb(187, 245, 72);
+  margin-top: 150px;
+  display: flex;
+  padding-top: 50px;
+}
+#end #about {
+  font-size: 4em;
+  margin-left: 23vw;
+  margin-bottom: 0px;
+
+  text-shadow: 3px 3px 2px white;
+}
+#end #ieee {
+  color: black;
+  margin: 2vh 10vw;
+  font-size: 20px;
+  line-height: 30px;
+}
+footer {
+  display: flex;
+}
+#end #query {
+  margin: 1vh 0.3vw 1vh 13vw;
+  font-size: 1.5em;
+  text-shadow: 3px 3px 2px gray;
+}
+#end #link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.7em;
+  font-weight: 300;
+  margin: 1vh 3vw;
+  margin-left: 2vw;
+}
+#end #link:hover {
+  color: rgb(4, 107, 4);
+}
