@@ -199,12 +199,4 @@ footer {
     margin-left: 48.5vw;
     overflow: hidden;
   }
-  #credits #copyright #icon {
-    height: 1em;
-  }
-  #credits #copyright h3 {
-    margin-top: -0.8vh;
-    margin-left: 0.2vw;
-    font-size: 1.1em;
-  }
 }
