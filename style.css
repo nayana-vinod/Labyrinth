@@ -1,0 +1,210 @@
+body {
+  background-color: black;
+  font-family: "Roboto Slab", serif;
+  height: auto;
+  margin: 0;
+}
+/* CSS FOR LANDING AREA */
+#start {
+  background-image: url(./assets/landing_pic_mobile.jpeg);
+  background-repeat: no-repeat;
+  display: block;
+  position: cover;
+  height: 60vh;
+  width: 100%;
+}
+#start #text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#start #heading {
+  font-weight: 400px;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: -30px;
+  color: rgb(187, 245, 72);
+  text-shadow: 5px 5px 2px black;
+}
+#start #tagline {
+  font-weight: 400px;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+  margin-top: -10px;
+  color: rgb(247, 234, 57);
+  text-shadow: 5px 5px 2px black;
+}
+
+/* CSS FOR CONTENT AREA */
+#content #writing {
+  color: #fcdc4d;
+  font-size: 25px;
+  line-height: 55px;
+  margin-top: 15vh;
+  margin-left: 12vw;
+  text-shadow: 3px 3px 2px darkslategray;
+}
+
+/* CSS FOR ABOUT AREA */
+#end {
+  background-color: rgb(187, 245, 72);
+  margin-top: 16vh;
+}
+#end #about {
+  font-size: 4em;
+  padding-top: 7vh;
+  margin-left: 23vw;
+  margin-bottom: 0vh;
+  text-shadow: 3px 3px 2px white;
+}
+#end #ieee {
+  color: black;
+  margin: 2vh 10vw;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* CSS FOR QUERY LINK */
+footer {
+  display: flex;
+}
+#end #query {
+  margin: 1vh 0.3vw 1vh 12vw;
+  font-size: 1.8em;
+  text-shadow: 3px 3px 2px gray;
+}
+#end #link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.7em;
+  font-weight: 300;
+  margin: 1vh 3vw;
+  margin-left: 2vw;
+}
+#end #link:hover {
+  color: rgb(4, 107, 4);
+}
+
+/* CSS FOR qR CODE */
+#end #qr {
+  display: flex;
+}
+#end #qr #visit {
+  margin-left: 16vw;
+  margin-right: 2vw;
+  margin-top: 4vh;
+  width: 30vw;
+}
+#end #qr #code {
+  margin-left: 2vw;
+}
+
+/* CSS FOR CREDITS */
+#credits {
+  background-color: white;
+  overflow: hidden;
+}
+#credits h3 {
+  margin-left: 3vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+/* CSS FOR COPYRIGHT */
+#credits #copyright {
+  display: flex;
+  flex-direction: row;
+  margin-left: 44vw;
+  overflow: hidden;
+}
+#credits #copyright #icon {
+  height: 1em;
+}
+#credits #copyright h3 {
+  margin-top: -0.8vh;
+  margin-left: 0.25vw;
+  font-size: 1.1em;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 550px) {
+  #start {
+    background-image: url(./assets/landing_pic_desktop.jpeg);
+    height: 95vh;
+  }
+  #start #text #heading {
+    font-size: 6em;
+    margin-top: 15vh;
+  }
+  #start #text #tagline {
+    font-size: 2.3em;
+  }
+  #middle {
+    display: flex;
+  }
+  #middle #content {
+    flex: 0 1 40vw;
+    margin-left: 3vw;
+  }
+  #middle #content #writing {
+    margin-left: 1vw;
+    margin-top: 22vh;
+    font-size: 1.6em;
+    line-height: 3.3em;
+  }
+  #middle footer {
+    margin-left: 9vw;
+  }
+  #middle #end #query {
+    font-size: 2.2em;
+    margin-left: 5vw;
+  }
+  #middle #end #link {
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 1.8vh;
+    margin-left: 1vw;
+  }
+  #middle #end {
+    flex: 0 1 60vw;
+    margin-top: 0.2vh;
+  }
+  #middle #end #qr #visit {
+    margin-left: 15vw;
+  }
+  #middle #end #qr #code {
+    margin-left: -15vw;
+  }
+
+  #credits {
+    background-color: white;
+    overflow: hidden;
+  }
+  #credits h3 {
+    margin-left: 1.5vw;
+    margin-top: 1vh;
+    font-size: 1.1em;
+    text-align: center;
+  }
+  #credits #copyright {
+    display: flex;
+    flex-direction: row;
+    margin-left: 48.5vw;
+    overflow: hidden;
+  }
+  #credits #copyright #icon {
+    height: 1em;
+  }
+  #credits #copyright h3 {
+    margin-top: -0.8vh;
+    margin-left: 0.2vw;
+    font-size: 1.1em;
+  }
+}
