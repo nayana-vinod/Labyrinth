@@ -1,2 +1,2 @@
 # CryptIQ
-A Website for the event
+A Website for an event conducted on behalf of IEEE
